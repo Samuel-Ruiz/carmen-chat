@@ -1,0 +1,23 @@
+POST http://localhost:3000/webhook/carmen
+Content-Type: application/json
+
+{
+  "entry": [
+    {
+      "changes": [
+        {
+          "value": {
+            "messages": [
+              {
+                "from":"34644730407",
+                "text": {
+                  "body": "Hola, ¿puedes recomendarme un buen restaurante en Madrid?"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
